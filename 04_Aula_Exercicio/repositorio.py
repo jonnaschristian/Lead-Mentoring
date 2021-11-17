@@ -1,5 +1,3 @@
-# Verificar se determinada pasta é um repositório git aplicando decorator
-
 from os import path
 
 def verifica (func):
