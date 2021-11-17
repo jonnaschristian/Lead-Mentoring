@@ -1,0 +1,2 @@
+# Lead Mentoring
+Lead é o Centro de Pesquisa, Desenvolvimento e Inovação da Dell. Deste modo, com o objetivo de me aprofundar em Python e, principalmente, em aplicações Web, esse repositório foi criado para que eu possa pôr as atividades que irão exercidas por mim no programa de mentoria de Desenvolvimento Python Web.
