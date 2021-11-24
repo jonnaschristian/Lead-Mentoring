@@ -1,0 +1,2 @@
+# API Rest com Fastapi
+Nesse exercício comecei a entrar, de fato, na parte de desenvolvimento python web, criando uma API Rest com o framework Fastapi. Foi elaborado requisições "get, post, put, patch e delete" e utilizado um cliente API Rest para melhor visualização. Não integrando ainda banco de dados, foi usado lista.
