@@ -2,10 +2,9 @@ from typing import List
 from fastapi import FastAPI, Depends, HTTPException, status, APIRouter
 from sqlalchemy.orm import Session
 from starlette.responses import JSONResponse
-from user import queries, models, schemas
+from user import queries, schemas
 from database import SessionLocal, engine, get_db
 
-models.Base.metadata.create_all(bind=engine)
 
 user_router = APIRouter()
 

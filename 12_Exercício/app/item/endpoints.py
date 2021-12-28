@@ -1,14 +1,9 @@
-from typing import List
 from fastapi import FastAPI, Depends, HTTPException, status, APIRouter
-from pydantic.types import OptionalInt
 from sqlalchemy.orm import Session
-from starlette.responses import JSONResponse
-from item import queries, models, schemas
-from database import SessionLocal, engine, get_db
+from item import queries, schemas
+from database import get_db
 
 from utils import hash
-
-models.Base.metadata.create_all(bind=engine)
 
 item_router = APIRouter()
 
